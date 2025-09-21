@@ -47,12 +47,17 @@ class _SplashViewBodyState extends State<SplashViewBody> with SingleTickerProvid
         const SizedBox(
           height: 5,
         ),
-        SlideTransition(
-          position: slidingAnimation,
-          child: const Text(
-            'Read Free Books',
-          textAlign: TextAlign.center,
-          ),
+        AnimatedBuilder(
+          animation: slidingAnimation,
+          builder: (context , _) {
+            return SlideTransition(
+              position: slidingAnimation,
+              child: const Text(
+                'Read Free Books',
+              textAlign: TextAlign.center,
+              ),
+            );
+          }
         )
         
       ],
