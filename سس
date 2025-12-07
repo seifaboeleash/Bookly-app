@@ -1,0 +1,34 @@
+Lib/
+    core/
+        errors/
+            failure.dart
+        utils/
+            api_services.dart 
+            app_routers.dart
+            styles.dart
+        widgets/
+            custom_button.dart
+    feautures/
+        home/
+            data/
+                models/
+                   book_model/ 
+                repos/
+                    home_repo.dart
+                    home_repo_impl.dart
+            presentation/
+                manger/
+                    cubits/
+                views/
+                    ui_widgets
+        search/
+            presentation/
+            views/
+            widgets/
+        splash/
+            data/
+            presentation/
+
+
+
+    
